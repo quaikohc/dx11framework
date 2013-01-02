@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="input\input_manager.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="input\keyboard.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="input\mouse.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\dx11device.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\dx11renderer.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\base_camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include=".\main.cpp" />
+    <ClCompile Include=".\dx11renderer\font_renderer_gdi.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\assimp_loader.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\mesh.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\misc.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\material.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\physics.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\visibility_system.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\DDSTextureLoader.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="app\app.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\geometry_generator.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\model.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\lights\light.cpp">
+      <Filter>dx11renderer\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\debug_logger.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\shader.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\inputLayouts.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\shader_reflection.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\effects\effectBase.cpp">
+      <Filter>dx11renderer\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\resourceManager.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\perfCounters.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\texture.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\terrain.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\debugDrawer.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="perfUtils\cpuUsage.cpp">
+      <Filter>perfUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\file_system.cpp">
+      <Filter>utils\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\filesystem\xmlFile.cpp">
+      <Filter>utils\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\filesystem\pugiXML\pugixml.cpp">
+      <Filter>utils\filesystem\pugiXML</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\animationSystem\skinnedModel.cpp">
+      <Filter>dx11renderer\animationSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\particleSystem\particleSystem.cpp">
+      <Filter>dx11renderer\particleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\skydome.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\statesAndSamplers.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\animationSystem\assimpAnimationLoader.cpp">
+      <Filter>dx11renderer\animationSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\animationSystem\assimpAnimationSystem.cpp">
+      <Filter>dx11renderer\animationSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\shadowMap.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11renderer\renderToTexture.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp" />
+    <ClCompile Include="dx11renderer\rtwShadowRenderer.cpp">
+      <Filter>dx11renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\timer.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\misc.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="input\input_manager.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\keyboard.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\mouse.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="dx11renderer\dx11device.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\dx11renderer.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\base_camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include=".\dx11renderer\font_renderer_gdi.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\assimp_loader.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\mesh.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\hashtable.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\material.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\physics.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\spsc_queue.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\visibility_system.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\DDSTextureLoader.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="app\app.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include=".\app\game_loop_manager.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\geometry_generator.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\model.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\lights\light.h">
+      <Filter>dx11renderer\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\debug_logger.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\shader.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\inputLayouts.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\shader_reflection.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\effects\effectBase.h">
+      <Filter>dx11renderer\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\resourceManager.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\perfCounters.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\texture.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\terrain.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\debugDrawer.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="perfUtils\cpuUsage.h">
+      <Filter>perfUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\file_system.h">
+      <Filter>utils\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\filesystem\xmlFile.h">
+      <Filter>utils\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\filesystem\pugiXML\pugiconfig.hpp">
+      <Filter>utils\filesystem\pugiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\filesystem\pugiXML\pugixml.hpp">
+      <Filter>utils\filesystem\pugiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\math\math.h">
+      <Filter>utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\animationSystem\skinnedModel.h">
+      <Filter>dx11renderer\animationSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\particleSystem\particleSystem.h">
+      <Filter>dx11renderer\particleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\skydome.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\statesAndSamplers.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="basicMemoryPool.h">
+      <Filter>utils\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\lruCache.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\animationSystem\assimpAnimationLoader.h">
+      <Filter>dx11renderer\animationSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\animationSystem\assimpAnimationSystem.h">
+      <Filter>dx11renderer\animationSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\constBuffer.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\shadowMap.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11renderer\renderToTexture.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h" />
+    <ClInclude Include="dx11renderer\rtwShadowRenderer.h">
+      <Filter>dx11renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\basicReflection.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\shaderDebuggerHelper.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dx11renderer">
+      <UniqueIdentifier>{3c89e668-da43-4aab-a759-fd9c7c81ccf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{5846f72d-81f1-4b84-9968-175d102a2783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{c688ae19-20e8-4745-8e07-85c6ae12efaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{d085b1e2-503d-47f2-8ec7-3a3b8aaa1bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{c3c4b08e-fa13-4903-bcb6-9521eb02db67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{eab84770-5cc0-46b7-b12c-6b0a8cdff345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{0739865a-1685-4342-ae48-d821b31ff896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{aa646446-fb09-47cb-8c02-7186df7ef4f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dx11renderer\lights">
+      <UniqueIdentifier>{fc2ed60e-d513-47cc-a95a-40b9c39e4736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dx11renderer\effects">
+      <UniqueIdentifier>{1c1075ce-9df0-4c09-8acc-42970795c5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\terrain">
+      <UniqueIdentifier>{3a086a89-79d0-4ae3-a1e3-915150213f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="perfUtils">
+      <UniqueIdentifier>{6e85a20d-f37f-458c-bb6a-131ea8893ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\filesystem">
+      <UniqueIdentifier>{01240b90-1a0d-4325-8c8d-ac12c850d3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\filesystem\pugiXML">
+      <UniqueIdentifier>{f3756930-e374-48f4-bef2-9a98ea165eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\math">
+      <UniqueIdentifier>{50bd0323-7aad-48d4-8988-e91f0fac5c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dx11renderer\animationSystem">
+      <UniqueIdentifier>{37f25a35-79b0-4cbd-89a0-b1830753d82c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dx11renderer\particleSystem">
+      <UniqueIdentifier>{94851a7e-5617-4dd6-a044-78eccb7120b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\particles">
+      <UniqueIdentifier>{8a45c1d5-19c6-4ca4-a087-1f6e050cd746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\particles\new">
+      <UniqueIdentifier>{5ba76c17-7710-48f8-9db0-670db09ba33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\sky">
+      <UniqueIdentifier>{b298e422-c796-4cf4-a1a2-1eadc530b66a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\memory">
+      <UniqueIdentifier>{b527c8bf-a065-41c5-850d-3186f4d1741f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\helpers">
+      <UniqueIdentifier>{dea0be14-4174-47ab-8939-0f30fedf5602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\rtwShadows">
+      <UniqueIdentifier>{7a7dc0b6-3d77-4717-acd8-a4e986a2b02f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\assets\parallaxPS.fx">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\parallaxVS.fx">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\common.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\terrain\terrainVS.hlsl">
+      <Filter>shaders\terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\terrain\terrainPS.hlsl">
+      <Filter>shaders\terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\terrain\terrainDS.hlsl">
+      <Filter>shaders\terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\terrain\terrainHS.hlsl">
+      <Filter>shaders\terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\basicTexturedPS.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\basicTexturedVS.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\skinnedPS.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\skinnedVS.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="dx11renderer\particleSystem\new\particleBillboardVS.hlsl">
+      <Filter>shaders\particles\new</Filter>
+    </FxCompile>
+    <FxCompile Include="dx11renderer\particleSystem\new\particleBillboardPS.hlsl">
+      <Filter>shaders\particles\new</Filter>
+    </FxCompile>
+    <FxCompile Include="dx11renderer\particleSystem\new\particleBillboardGS.hlsl">
+      <Filter>shaders\particles\new</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\sky\skyPS.hlsl">
+      <Filter>shaders\sky</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\sky\skyVS.hlsl">
+      <Filter>shaders\sky</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\shadowMap.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\textureDebugVS.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="textureDebugPS.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\terrain\warpMap.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\rtwShadows\depth0.hlsl">
+      <Filter>shaders\rtwShadows</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\rtwShadows\depthNormalVS.hlsl">
+      <Filter>shaders\rtwShadows</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\rtwShadows\importanceMapVS.hlsl">
+      <Filter>shaders\rtwShadows</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\rtwShadows\DepthNormalPS.hlsl">
+      <Filter>shaders\rtwShadows</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\rtwShadows\importanceMapPS.hlsl">
+      <Filter>shaders\rtwShadows</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\rtwShadows\shadowmapRtwPS.hlsl">
+      <Filter>shaders\rtwShadows</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\rtwShadows\shadowmapRtwVS.hlsl">
+      <Filter>shaders\rtwShadows</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\rtwShadows\renderFinalVS.hlsl">
+      <Filter>shaders\rtwShadows</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\rtwShadows\renderFinalPS.hlsl">
+      <Filter>shaders\rtwShadows</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\rtwShadows\depthOnly.hlsl">
+      <Filter>shaders\rtwShadows</Filter>
+    </FxCompile>
+    <FxCompile Include="warpMapOLDVERSION.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="textureDebug1DPS.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\rtwShadows\warpMapPS.hlsl">
+      <Filter>shaders\rtwShadows</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\fullScreenQuadVS.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\assets\rtwShadows\renderShadowmapWithTess.hlsl">
+      <Filter>shaders\rtwShadows</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\assets\terrain\terrainCommon.hlsl">
+      <Filter>shaders\terrain</Filter>
+    </None>
+  </ItemGroup>
+</Project>

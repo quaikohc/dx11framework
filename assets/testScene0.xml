@@ -1,0 +1,6 @@
+<scene>
+
+<entity pos="0.0 1.0 2.0" rot="0.0 1.0 2.0" scale="1.0" modelPath="h3.dae" shaderPath="parallax"></entity>
+<entity pos="29.0 1.0 2.0" rot="0.0 1.0 2.0" scale="1.0" modelPath="h4.dae" shaderPath="parallax"></entity>
+
+</scene>
